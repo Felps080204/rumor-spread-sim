@@ -4,7 +4,6 @@ from visualization.graph_animation import generate_gif
 from visualization.metrics_plot import plot_metrics
 
 def main():
-
     graph, agents = create_environment()
 
     history, metrics_history = run_simulation(
